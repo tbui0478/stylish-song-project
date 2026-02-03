@@ -31,3 +31,6 @@ p {
     /* Rounds the corners of the box by 5 pixels */
 }
     
+table {
+    color: aliceblue;
+}
