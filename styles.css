@@ -1,0 +1,15 @@
+h1 {
+    color: darkblue;
+    /* Sets text color to a dark blue shade */
+
+    padding: 8px;
+    /* Adds 8 pixels of space inside the element around the text */
+
+    text-shadow: 5px 5px 6px gray;
+    /* Adds a shadow to the text:
+       - 5px horizontal offset (right)
+       - 5px vertical offset (down)
+       - 6px blur radius (softness)
+       - gray color */
+}
+    
