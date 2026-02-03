@@ -6,6 +6,21 @@ body {
     /* Creates a background that starts white at the center 
        and fades to light gray at the edges */
 }
+
+h1 {
+    color: darkblue;
+    /* Sets text color to a dark blue shade */
+
+    padding: 8px;
+    /* Adds 8 pixels of space inside the element around the text */
+
+    text-shadow: 5px 5px 6px gray;
+    /* Adds a shadow to the text:
+       - 5px horizontal offset (right)
+       - 5px vertical offset (down)
+       - 6px blur radius (softness)
+       - gray color */
+}
     
 p {
     color: white;
@@ -30,4 +45,19 @@ p {
     border-radius: 5px;
     /* Rounds the corners of the box by 5 pixels */
 }
+
+/* Selects ONLY the 5th paragraph element */
+p:nth-child(5) {
+    background: revert;
+    box-shadow: revert;
+    padding: revert;
+    /* 'revert' resets these properties to the browser's default,
+       effectively removing the custom styling for this specific line */
+}
+
+a {
+    font-size: 12px;
+    /* Makes the link text smaller */
+}
+    
     
